@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom ,#052050,#597283);
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 80%;
+    max-width: 850px;
+    padding: 30px;
+    text-align: center;
+}
+.container h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.container .question{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.container .choices{
+    margin-top: 20px;
+}
+.choice{
+  font-size: 20px;
+  background-color: #eee;
+  color: #000;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  width: 60%;
+}
+
+.choice:hover{
+    background-color: #ddd;
+}
+
+.btn{
+    width: 60%;
+    font-size: 20px;
+    padding: 12px 20px;
+    font-weight: 600;
+    margin: 20px auto 0 auto;
+    background-color: #258624;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #08780c;
+}
+
+.choice.selected{
+    background-color:  #007bff;
+    color: white;
+}
+.scoreCard{
+    font-size: 25px;
+    margin-top: 20px;
+}
